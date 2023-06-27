@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Agustín</h1>
+<h1 align="center">Hi, I'm Agustín <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
 <h3 align="center">A Full Stack Web Developer from Argentina. I studied at Henry, an online bootcamp that nowadays was selected in the top 10 bootcamps in the world</h3>
 
 - 📝 I regularly write articles on [https://www.linkedin.com/in/aguscabralr](https://www.linkedin.com/in/aguscabralr)
