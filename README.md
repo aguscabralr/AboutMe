@@ -1,10 +1,13 @@
-<h1 align="center">Hi, I'm Agustín <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
+# <center> Hi, I'm Agustín <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></center>
 
-<h1 align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Chakra+Petch&weight=700&size=50&duration=4000&pause=1000&color=FFF&center=true&vCenter=true&width=800&height=100&lines=Full+Stack+Developer" alt="Typing SVG" /></a>
-</h1>
+# <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Chakra+Petch&weight=700&size=50&duration=4000&pause=1000&color=FFF&center=true&vCenter=true&width=800&height=100&lines=Full+Stack+Developer" alt="Typing SVG"/></a>
 
-<h2 align="center">Languages and Tools:
+## <center>Lenguages and Tools</center>
+
+  
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-plain.svg" alt="JavaScript" width="60" height="60"> </a>
+#### JavaScript
+
 <div align="center">
   <p align="center">
     <h6>
