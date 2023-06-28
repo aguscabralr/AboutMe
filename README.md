@@ -5,14 +5,55 @@
 </h1>
 
 <h2 align="center">Languages and Tools:
+<div align="center">
+  <p align="center">
+    <h6>
+      <table>
+        <tr>
+          <td align="center">
+            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-plain.svg" alt="JavaScript" width="60" height="60"> </a>
+            <h6>JavaScript</h6>
+          </td>
+          <td align="center">
+            <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" alt="HTML" width="60" height="60"> </a>
+            <h6>HTML</h6>
+          </td>
+          <td align="center">
+            <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-original.svg" alt="CSS" width="60" height="60"> </a>
+            <h6>CSS</h6>
+          </td>
+          <td align="center">
+            <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg" alt="React" width="60" height="60"> </a>
+            <h6>React</h6>
+          </td>
+          <td align="center">
+            <a href="https://redux.js.org" target="_blank" rel="noreferrer"> <img src="https://github.com/devicons/devicon/blob/master/icons/redux/redux-original.svg" alt="Redux" width="60" height="60"> </a>
+            <h6>Redux</h6>
+          </td>
+          <td align="center">
+            <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original.svg" alt="Node" width="60" height="60"> </a>
+            <h6>Node</h6>
+          </td>
+          <td align="center">
+            <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://github.com/devicons/devicon/blob/master/icons/express/express-original.svg" alt="Express" width="60" height="60"/> </a> 
+            <h6>Express</h6>
+          </td>
+          <td align="center">
+            <a href="https://sequelize.org/" target="_blank" rel="noreferrer"> <img src="https://github.com/devicons/devicon/blob/master/icons/sequelize/sequelize-original.svg" alt="Sequelize" width="60" height="60"/> </a> 
+            <h6>Sequelize</h6>
+          </td>
+          <td align="center">
+            <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://github.com/devicons/devicon/blob/master/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" width="60" height="60"/> </a>  
+            <h6>PostgreSQL</h6>
+          </td>
+        </tr>
+      </table>
+    </h6>
+  </p>      
+</div>
+
   <p align="center"> 
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://labs.1a23.com/userpage/images/javascript.svg" alt="javascript" width="40" height="40"/> </a> 
-    <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://3.bp.blogspot.com/-RaQkWMDZh2M/VxNsYbqan6I/AAAAAAAACSQ/vNUFQVEmiaAgQTgnx3WUY7U7Tq5G9gvKgCLcB/s1600/html-editor-.png" alt="html5" width="40" height="40"/> </a> 
-    <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://th.bing.com/th/id/OIP.m2FmuRoJDysoB0De5zPzrwHaHa?pid=ImgDet&rs=1" alt="css3" width="40" height="40" /> </a> 
-    <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://th.bing.com/th/id/OIP.EUFgGWBdOPMHLsa71oumsAAAAA?pid=ImgDet&rs=1" alt="react" width="40" height="40" /> </a> 
-    <a href="https://redux.js.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" width="40" height="40"/> </a> 
-    <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> 
-    <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> 
+    
     <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> 
     <a href="https://jestjs.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg" alt="jest" width="40" height="40"/> </a> 
     <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> 
