@@ -12,13 +12,13 @@
               <h6><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-plain.svg" alt="JavaScript" width="50" height="50"></a><p>JavaScript</p></h6>
             </td>
             <td align="center">
-              <h6><a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" alt="HTML" width="50" height="50"></a><p>HTML</p></h6>
+              <h6><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noreferrer"> <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" alt="HTML" width="50" height="50"></a><p>HTML</p></h6>
             </td>
             <td align="center">
-              <h6><a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-original.svg" alt="CSS" width="50" height="50"></a><p>CSS</p></h6>
+              <h6><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noreferrer"> <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-original.svg" alt="CSS" width="50" height="50"></a><p>CSS</p></h6>
             </td>
             <td align="center">
-              <h6><a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg" alt="React" width="50" height="50"></a><p>React</p></h6>
+              <h6><a href="https://reactjs.org" target="_blank" rel="noreferrer"> <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg" alt="React" width="50" height="50"></a><p>React</p></h6>
             </td>
             <td align="center">
               <h6><a href="https://redux.js.org" target="_blank" rel="noreferrer"> <img src="https://github.com/devicons/devicon/blob/master/icons/redux/redux-original.svg" alt="Redux" width="50" height="50"></a><p>Redux</p></h6>
@@ -39,7 +39,7 @@
               <h6><a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="Postman" width="50" height="50"></a><p>Postman</p></h6>
             </td>
             <td align="center">
-              <h6><a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="GitFlow" width="50" height="50"></a><p>GitFlow</p></h6>
+              <h6><a href="https://git-scm.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="GitFlow" width="50" height="50"></a><p>GitFlow</p></h6>
             </td>
           </tr>
         </table>
@@ -61,10 +61,10 @@
               <h6><a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://github.com/devicons/devicon/blob/master/icons/typescript/typescript-plain.svg" alt="TypeScript" width="50" height="50"></a><p>TypeScript</p></h6>
             </td>
             <td align="center">
-              <h6><a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://github.com/devicons/devicon/blob/master/icons/typescript/typescript-plain.svg" alt="TypeScript" width="50" height="50"></a><p>TypeScript</p></h6>
+              <h6><a href="https://nextjs.org/" target="_blank" rel="noreferrer"> <img src="https://github.com/devicons/devicon/blob/master/icons/nextjs/nextjs-line.svg" alt="Next" width="50" height="50"></a><p>Next</p></h6>
             </td>
             <td align="center">
-              <h6><a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://github.com/devicons/devicon/blob/master/icons/typescript/typescript-plain.svg" alt="TypeScript" width="50" height="50"></a><p>TypeScript</p></h6>
+              <h6><a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://github.com/devicons/devicon/blob/master/icons/tailwindcss/tailwindcss-plain.svg" alt="Tailwind" width="50" height="50"></a><p>Tailwind</p></h6>
             </td>
           </tr>
         </table>
@@ -84,3 +84,4 @@
 <a href="https://instagram.com/aguscabralr" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="aguscabralr" height="30" width="40" /></a>
 <a href="https://www.hackerrank.com/acabralrobledo" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="acabralrobledo" height="30" width="40" /></a>
 </p>
+
