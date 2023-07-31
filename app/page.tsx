@@ -2,7 +2,9 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import ThemeSwitch from "./themeSwitch";
-import HomeLink from "./homeLink";
+import { HomeLink } from "./homeLink";
+import { AboutLink } from "./aboutLink";
+import { ContactLink } from "./contactLink";
 
 const Landing = () => {
 
@@ -14,8 +16,8 @@ const Landing = () => {
         </section>
         <section className="navbar-end flex-row justify-around items-center">
           <HomeLink />
-          <Link href={"/"} className="text-center">About</Link>
-          <Link href={"/"} className="text-center">Contact</Link>
+          <AboutLink />
+          <ContactLink />
           <ThemeSwitch />
         </section>
       </nav>

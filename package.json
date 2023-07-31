@@ -10,6 +10,8 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@lottiefiles/react-lottie-player": "^3.5.3",
+    "framer-motion": "^10.15.0",
     "next": "13.4.9",
     "postcss": "8.4.25",
     "react": "18.2.0",
@@ -32,11 +34,5 @@
     "eslint-config-next": "13.4.9",
     "husky": "^8.0.3",
     "next-themes": "^0.2.1"
-  },
-  "lint-staged": {
-    "*.(ts|tsx)": [
-      "eslint . --fix",
-      "prettier --write"
-    ]
   }
 }

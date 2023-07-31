@@ -1,17 +1,22 @@
 "use client";
-import React from "react";
-import { useState } from "react";
 import Link from "next/link";
-import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
+import { useState } from "react";
+import { Player } from '@lottiefiles/react-lottie-player';
+import Home from "../public/icons/home.json";
 
-const HomeLink = () => {
+export const HomeLink = () => {
 	const [isHover, setIsHover] = useState(false);
 
 	return (
-		<Link href={"/"} onMouseMove={() => setIsHover(true)} onMouseOut={() => setIsHover(false)} className="w-[50px] text-center duration-500" >
-			{isHover ? <HomeOutlinedIcon /> : "Home"}
+		<Link href={"/"} onMouseMove={() => setIsHover(true)} onMouseOut={() => setIsHover(false)} className="w-[50px] h-10 flex-center" >
+			{isHover ? (
+				<Player
+					autoplay
+					keepLastFrame={true}
+					src={Home}
+					style={{ width: '75px', height: '75px' }}
+				/>
+			) : "Home"}
 		</Link >
 	);
 };
-
-export default HomeLink;

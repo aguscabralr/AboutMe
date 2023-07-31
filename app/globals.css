@@ -44,6 +44,17 @@
   flex-direction: column;
 }
 
-.home:hover {
-  content: "";
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.switcher:hover {
+  animation: darklight 1.5s;
+}
+
+@keyframes darklight {
+  0% {rotate: 0deg;}
+  100% {rotate: 360deg;}
 }
