@@ -3,8 +3,6 @@ import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
 import DarkModeIcon from '@mui/icons-material/DarkMode';
 import LightModeIcon from '@mui/icons-material/LightMode';
-import Swithcer from "../public/icons/switcher.json";
-import { Player } from "@lottiefiles/react-lottie-player";
 
 const ThemeSwitch = () => {
   const [mounted, setMounted] = useState(false);
