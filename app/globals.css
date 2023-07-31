@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+[theme="light"] body {
+  --pri: #007ACC; 
+  --sec: #34A853;
+  --acc: #FF6D00;
+  --bgd: #F5F5F5;
+  --txt: #333333; 
+  --neu: #EAEAEA;
+}
+
+[theme="dark"] body {
+  --pri: #007ACC;
+  --sec: #00e6da;
+  --acc: #ff0000;
+  --bgd: #1E1E1E;
+  --txt: #FFFFFF; 
+  --neu: #333333;
+}
+
+.h-screen{
+  height: 100svh;
+}
+
+.bg-grad {
+  background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 68, 1) 100%);
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.home:hover {
+  content: "";
+}
