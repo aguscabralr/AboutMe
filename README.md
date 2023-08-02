@@ -44,9 +44,9 @@
 <div align="center">
   <img align="right" src="https://github.com/Adam-pw/Adam-pw/blob/main/animation_500_kxa883sd.gif" alt="adam-pw" />
   <p>
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=aguscabralr&theme=algolia&hide_border=true"  alt="aguscabralr" width="350"/>
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aguscabralr&theme=algolia&show_icons=true&hide_border=false&layout=compact"  alt="aguscabralr" width="350"/>
-    <img src="https://github-readme-stats.vercel.app/api?username=aguscabralr&theme=algolia&show_icons=true&hide_border=true&count_private=true"  alt="aguscabralr" width="350"/>
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=aguscabralr&theme=algolia&hide_border=true"  alt="aguscabralr" width="325"/>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aguscabralr&theme=algolia&show_icons=true&hide_border=false&layout=compact"  alt="aguscabralr" width="325"/>
+    <img src="https://github-readme-stats.vercel.app/api?username=aguscabralr&theme=algolia&show_icons=true&hide_border=true&count_private=true"  alt="aguscabralr" width="325"/>
   </p>
 </div>
 
