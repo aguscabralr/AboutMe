@@ -1,6 +1,6 @@
 "use client";
 import { Player } from "@lottiefiles/react-lottie-player";
-import Maintenance from "../public/icons/maintenance.json";
+import Maintenance from "../../../public/icons/maintenance.json";
 
 const MaintenancePage = () => {
   return (

@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { Player } from '@lottiefiles/react-lottie-player';
-import Home from "../public/icons/home.json";
+import Home from "@/public/icons/home/home.json";
 
 export const HomeLink = () => {
 	const [isHover, setIsHover] = useState(false);

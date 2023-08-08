@@ -1,10 +1,10 @@
 "use client";
 import Link from "next/link";
 import { useState } from "react";
+import Contact from "@/public/icons/home/contact.json";
 import { Player } from "@lottiefiles/react-lottie-player";
-import About from "../public/icons/about.json";
 
-export const AboutLink = () => {
+export const ContactLink = () => {
   const [isHover, setIsHover] = useState(false);
 
   return (
@@ -13,11 +13,10 @@ export const AboutLink = () => {
         <Player
           autoplay
           keepLastFrame={true}
-          speed={1.5}
-          src={About}
-          style={{ width: '30px', height: '30px' }}
+          src={Contact}
+          style={{ width: '40px', height: '40px' }}
         />
-      ) : "About"}
+      ) : "Contact"}
     </Link >
   );
 };

@@ -2,9 +2,9 @@
 import Link from "next/link";
 import { useState } from "react";
 import { Player } from "@lottiefiles/react-lottie-player";
-import Contact from "../public/icons/contact.json";
+import About from "@/public/icons/home/about.json";
 
-export const ContactLink = () => {
+export const AboutLink = () => {
   const [isHover, setIsHover] = useState(false);
 
   return (
@@ -13,10 +13,11 @@ export const ContactLink = () => {
         <Player
           autoplay
           keepLastFrame={true}
-          src={Contact}
-          style={{ width: '40px', height: '40px' }}
+          speed={1.5}
+          src={About}
+          style={{ width: '30px', height: '30px' }}
         />
-      ) : "Contact"}
+      ) : "About"}
     </Link >
   );
 };

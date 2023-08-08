@@ -7,6 +7,13 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        xs: "350px",
+        sm: "400px",
+        md: "600px",
+        lg: "900px",
+        xl: "1200px"
+      },
       colors: {
         pri: "#007ACC", // It can be used for buttons, headings, and other prominent elements.
         sec: "#34A853", // This can be used for call-to-action buttons or accents.

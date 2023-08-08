@@ -13,7 +13,7 @@
   --sec: #34A853;
   --acc: #FF6D00;
   --bgd: #F5F5F5;
-  --txt: #333333; 
+  --txt: #ff0000; 
   --neu: #EAEAEA;
 }
 
@@ -24,6 +24,10 @@
   --bgd: #1E1E1E;
   --txt: #FFFFFF; 
   --neu: #333333;
+}
+
+.foto {
+  object-position: -20px;
 }
 
 .h-screen{
