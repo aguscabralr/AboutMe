@@ -46,7 +46,7 @@ const Projects = () => {
   return (
     <section id='proj'>
       <div id='prcont' className='w-full h-20 flex justify-end items-center bg-[--txt] text-[--sme] overflow-hidden z-30'>
-        <h1 id='prti' className='text-nowrap text-2xl lg:text-4xl xl:text-5xl font-semibold'>
+        <h1 id='prti' className='whitespace-nowrap text-2xl lg:text-4xl xl:text-5xl font-semibold'>
           Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos
         </h1>
       </div>

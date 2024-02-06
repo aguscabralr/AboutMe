@@ -33,10 +33,10 @@ const Home = () => {
           </div>
         </div>
       </article>
-      <article id='abcont' className='w-full h-[45svh] pb-16 px-[10%] lg:px-[15%] flex-col justify-end gap-5 xs:text-xs sm:text-base lg:text-lg xl:text-xl text-pretty'>
-        <p id='abtx1'>Bienvenido/a! Gracias por tu visita, como mencioné soy desarrollador fullstack, por mi personalidad me considero alguien ordenado, detallista y perfeccionsta, me gusta mucho el diseño y la estructura de las cosas en general, por tanto, le he dedicado a la parte del front end mucho más tiempo y es en lo que más me destaco. Tengo un buen manejo de las distintas herramientas me permiten desarrollar interfaces atractivas y funcionales.</p>
-        <p id='abtx2'>Comencé de a poco mi viaje como programador en 2022, con un pequeño curso nacional y luego entre a SoyHenry, allí en 2023, completé el curso como desarrollador web fullstack y actualmente me encuentro como freelance y buscando nuevas tecnologias durante el trayecto que aprender de forma autodidacta </p>
-        <p id='abtx2'>En gran parte, este afán por el diseño se debe a que también soy estudiante de ingeniería civil y mi objetivo algún día será poder conjugar mis dos backgrounds para así destacar en el desarrollo de web basadas en estas</p>
+      <article id='abcont' className='w-full h-[45svh] pb-16 px-[10%] lg:px-[15%] flex-col justify-end gap-5 xs:text-xs sm:text-sm lg:text-base xl:text-xl text-pretty'>
+        <p id='abtx1'>Bienvenido/a! Gracias por tu visita, como mencioné soy desarrollador fullstack, por mi personalidad me considero alguien ordenado, detallista y perfeccionsta, me gusta mucho el diseño y la estructura de las cosas en general, por tanto, le he dedicado a la parte del front end mucho más tiempo y es en lo que más me destaco.</p>
+        <p id='abtx2'>Comencé de a poco mi viaje como programador en 2022, con un pequeño curso nacional y luego entre a SoyHenry, allí en 2023, completé el curso como desarrollador web fullstack y actualmente me encuentro como freelance y buscando nuevas tecnologias que aprender de forma autodidacta</p>
+        {/* <p id='abtx2'>En gran parte, este afán por el diseño se debe a que también soy estudiante de ingeniería civil y mi objetivo algún día será poder conjugar mis dos backgrounds para así destacar en el desarrollo de web basadas en estas</p> */}
       </article>
     </section>
   );

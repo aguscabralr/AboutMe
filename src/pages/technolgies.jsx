@@ -28,7 +28,7 @@ const Technolgies = () => {
   return (
     <section id='tech'>
       <div id='tecont' className='w-full h-20 flex items-center bg-[--txt] text-[--sme] overflow-hidden z-40'>
-        <h1 id='teti' className='text-nowrap text-2xl lg:text-4xl xl:text-5xl font-semibold'>
+        <h1 id='teti' className='whitespace-nowrap text-2xl lg:text-4xl xl:text-5xl font-semibold'>
           Tecnologías Tecnologías Tecnologías Tecnologías Tecnologías Tecnologías Tecnologías Tecnologías Tecnologías Tecnologías Tecnologías Tecnologías Tecnologías Tecnologías Tecnologías Tecnologías Tecnologías Tecnologías Tecnologías Tecnologías Tecnologías Tecnologías Tecnologías Tecnologías Tecnologías Tecnologías Tecnologías Tecnologías Tecnologías Tecnologías
         </h1>
       </div>

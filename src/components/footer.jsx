@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <section id='foo'>
-      <article className='w-full h-[20svh] bg-[--sim] flex-col center gap-5'>
+      <article className='w-full h-[15svh] bg-[--sim] flex-col center gap-5'>
         <div className='w-full flex center gap-5'>
           <a id='lk' href='https://www.linkedin.com/in/aguscabralr/' title='Linkedin' target='_blank' rel='noreferrer' className='rounded-xl p-2 relative overflow-hidden'>
             <div className='w-[300%] h-[300%] bg-blue-600 absolute top-0 left-0 translate-y-[100%] translate-x-[50%] wave duration-1000'></div>
