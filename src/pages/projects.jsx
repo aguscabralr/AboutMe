@@ -21,7 +21,7 @@ const Projects = () => {
       description: 'Desarrollo de una aplicación web para una startup mexicana, mi rol en este proyecto fue de Front End y armamos la página desde cero, el proyecto aún no fue lanzado pero estuve como pasante en el mismo. Me dedique a desarrollar y acomodar distintos componentes logrando una buena estructura y visualización de la página.',
       date: 'Julio 2023',
       technologies: [next, redux, tailwindCSS],
-      image: '/chicago.jpg',
+      image: '/images/hk.png',
       link: { web: 'https://huntek.vercel.app/', repo: 'https://github.com/aguscabralr/Huntek' },
     },
     {
@@ -30,7 +30,7 @@ const Projects = () => {
       description: 'Aplicación web de estilo SPA que sirve para buscar recetas de distintos tipos de comidas, ver sus ingredientes y recetas y para agregar la recetas que vos quieras. Además, cuenta con proceso de registro para asi guardar tus genialidades como chef, a cocinar!',
       date: 'Junio 2023',
       technologies: [react, redux, css, node, express, sequelize, postreSQL],
-      image: '/chicago.jpg',
+      image: '/images/fp.png',
       link: { web: 'https://foodpi.vercel.app/', repo: 'https://github.com/aguscabralr/FoodPI-Front' },
     },
     {
@@ -39,7 +39,7 @@ const Projects = () => {
       description: 'Mi primera aplicación web! Es una SPA (Single Page Application) que muestra los personajes de la serie animada que lleva por titulo, esta ambientada a la misma respecto al diseño y en la misma uno puede, registrarse, iniciar sesión, buscar personajes, filtrar personajes y hasta favearlos.',
       date: 'Mayo 2023',
       technologies: [react, redux, css, node, express, sequelize, postreSQL],
-      image: '/chicago.jpg',
+      image: '/images/rm.png',
       link: { web: 'https://rickandmortybyaguscabralr.vercel.app/', repo: 'https://github.com/aguscabralr/RickAndMorty-Front' },
     },
   ];
@@ -77,10 +77,10 @@ const Projects = () => {
                 <img src={proj.image} alt={proj.title} className='w-full h-full object-cover' />
                 <div className='translate-y-[100%] w-full h-full flex center gap-5 bg-black opacity-80 absolute top-0 left-0 duration-300'>
                   <a href={proj.link.web} title='Visitá el proyecto' target='_blank' rel='noreferrer'>
-                    <img src='/goWeb.svg' alt='goFile' className='w-10 h-10 invert' />
+                    <img src='/svg/goWeb.svg' alt='goFile' className='w-10 h-10 invert' />
                   </a>
                   <a href={proj.link.repo} title='Visitá el repositorio' target='_blank' rel='noreferrer'>
-                    <img src='/github.svg' alt='goFile' className='w-10 h-10 invert' />
+                    <img src='/svg/github.svg' alt='goFile' className='w-10 h-10 invert' />
                   </a>
                 </div>
               </div>

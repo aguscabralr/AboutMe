@@ -1,4 +1,4 @@
-import photo from '/aguscabral.jpg';
+import photo from '/images/aguscabral.jpg';
 
 const Home = () => {
   return (

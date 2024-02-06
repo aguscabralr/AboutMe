@@ -41,40 +41,40 @@ const Contact = () => {
         </h1>
       </article>
       <article id='ccont' className='w-full py-16 px-[5%] flex-col center relative'>
-        <form id='formulario' onSubmit={handleSubmit} className='w-full max-w-[600px] h-[55svh] flex-col justify-between text-[--txt] box'>
+        <form id='formulario' onSubmit={handleSubmit} className='w-full max-w-[600px] h-[55svh] flex-col justify-between text-[--txt]'>
           <div className='w-full h-[85%] flex-col justify-around'>
             <label htmlFor='nombre'>
               Nombre:
               <div className='w-full flex items-center relative'>
                 <input type='text' id='nombre' name='nombre' value={formValues.nombre} onChange={handleChange} required className='w-full h-10 px-10 bg-[--txt] text-[--sme] rounded-lg' />
-                <img src='/name.svg' alt='name' className='w-6 h-6 absolute left-2 inv' />
+                <img src='/svg/name.svg' alt='name' className='w-6 h-6 absolute left-2 inv' />
               </div>
             </label>
             <label htmlFor='correo'>
               Correo:{' '}
               <div className='w-full flex items-center relative'>
                 <input type='email' id='correo' name='correo' value={formValues.correo} onChange={handleChange} required className='w-full h-10 px-10 bg-[--txt] text-[--sme] rounded-lg' />
-                <img src='/email.svg' alt='email' className='w-6 h-6 absolute left-2 inv' />
+                <img src='/svg/email.svg' alt='email' className='w-6 h-6 absolute left-2 inv' />
               </div>
             </label>
             <label htmlFor='nombre'>
               Asunto:
               <div className='w-full flex items-center relative'>
                 <input type='text' id='asunto' name='asunto' value={formValues.asunto} onChange={handleChange} required className='w-full h-10 px-10 bg-[--txt] text-[--sme] rounded-lg' />
-                <img src='/title.svg' alt='title' className='w-6 h-6 absolute left-2 inv' />
+                <img src='/svg/title.svg' alt='title' className='w-6 h-6 absolute left-2 inv' />
               </div>
             </label>
             <label htmlFor='mensaje'>
               Mensaje:
               <div className='w-full flex items-center relative'>
                 <input type='text' id='mensaje' name='mensaje' value={formValues.mensaje} onChange={handleChange} required className='w-full h-10 px-10 bg-[--txt] text-[--sme] rounded-lg'></input>
-                <img src='/text.svg' alt='text' className='w-6 h-6 absolute left-2 inv' />
+                <img src='/svg/text.svg' alt='text' className='w-6 h-6 absolute left-2 inv' />
               </div>
             </label>
           </div>
           <div className='w-full h-10 flex center'>
             <button type='submit' className='w-20 py-1 flex center bg-black border rounded-xl border-transparent hover:border-white hover:scale-110 hover:bg-[#111] active:scale-125 duration-300'>
-              {load ? <img src='/load.svg' alt='load' className='w-6 h-6' /> : 'Enviar'}
+              {load ? <img src='/svg/load.svg' alt='load' className='w-6 h-6' /> : 'Enviar'}
             </button>
           </div>
         </form>
