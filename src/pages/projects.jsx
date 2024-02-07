@@ -50,17 +50,17 @@ const Projects = () => {
           Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos
         </h1>
       </div>
-      <article className='py-16 px-[10%] text-[--txt] flex-col gap-[10svh]'>
+      <article className='py-16 px-[10%] text-[--txt] flex-col gap-[5svh]'>
         {data.map((proj, idx) => {
           return (
-            <div key={idx} id={`${proj.abv}cont`} className='w-full max-h-68 p-8 bg-[--sim] border rounded-xl flex-row gap-10 overflow-hidden'>
-              <div id={`${proj.abv}tx`} className='w-3/5 flex-col justify-around'>
+            <div key={idx} id={`${proj.abv}cont`} className='w-full lg:max-h-68 p-8 bg-[--sim] border rounded-xl flex-col lg:flex-row gap-7 lg:gap-10 overflow-hidden'>
+              <div id={`${proj.abv}tx`} className='w-full lg:w-3/5 flex-col justify-around'>
                 <div>
                   <span className='text-xs text-gray-500'>{proj.date}</span>
                   <h1 className='text-xl font-bold'>{proj.title}</h1>
                 </div>
-                <p className='text-sm py-3 line-clamp-4 text-pretty'>{proj.description}</p>
-                <div className='h-10 flex-row gap-4'>
+                <p className='text-sm py-3 lg:line-clamp-4'>{proj.description}</p>
+                <div className='h-6 lg:h-10 flex-row gap-4'>
                   {proj.technologies.map((tech, idx) => {
                     return (
                       <div key={idx} id={tech.abv} className={`${proj.abv}th h-full flex center relative hover:cursor-pointer`}>
@@ -73,7 +73,7 @@ const Projects = () => {
                   })}
                 </div>
               </div>
-              <div id={`${proj.abv}ph`} className='w-2/5 h-full relative overflow-hidden'>
+              <div id={`${proj.abv}ph`} className='w-full lg:w-2/5 h-full relative overflow-hidden'>
                 <img src={proj.image} alt={proj.title} className='w-full h-full object-cover' />
                 <div className='translate-y-[100%] w-full h-full flex center gap-5 bg-black opacity-80 absolute top-0 left-0 duration-300'>
                   <a href={proj.link.web} title='Visitá el proyecto' target='_blank' rel='noreferrer'>

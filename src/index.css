@@ -26,11 +26,6 @@
   align-items: center;
 }
 
-.stick {
-  position: sticky;
-  top: 80px;
-}
-
 body[theme='light'] {
   --pri: #00aeff;
   --sec: #66ff00;
