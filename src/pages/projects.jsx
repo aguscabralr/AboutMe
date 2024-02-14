@@ -1,17 +1,20 @@
-const javascript = { name: 'JavaScript', abv: 'js', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg', bg: '#FDE047', tx: '#000' };
-const typescript = { name: 'TypeScript', abv: 'ts', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg', bg: '#007ACC', tx: '#000' };
-const html = { name: 'HTML', abv: 'ht', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg', bg: '#E44D26', tx: '#000' };
-const css = { name: 'CSS', abv: 'cs', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg', bg: '#007ACC', tx: '#000' };
-const react = { name: 'React', abv: 'rt', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg', bg: '#61DAFB', tx: '#000' };
-const redux = { name: 'Redux', abv: 'rx', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg', bg: '#764ABC', tx: '#000' };
-const next = { name: 'Next', abv: 'nx', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg', bg: '#FFFFFF', tx: '#000' };
-const tailwindCSS = { name: 'TailwindCSS', abv: 'tw', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg', bg: '#38B2AC', tx: '#000' };
-const node = { name: 'Node', abv: 'no', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg', bg: '#8CC84B', tx: '#000' };
-const express = { name: 'Express', abv: 'ex', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg', bg: '#FFFFFF', tx: '#000' };
-const nest = { name: 'Nest', abv: 'ns', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-plain.svg', bg: '#E0234E', tx: '#000' };
-const sequelize = { name: 'Sequelize', abv: 'sq', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-plain.svg', bg: '#764ABC', tx: '#000' };
-const postreSQL = { name: 'PostgreSQL', abv: 'pg', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain.svg', bg: '#336791', tx: '#000' };
-const mongoDB = { name: 'MongoDB', abv: 'mg', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg', bg: '#47A248', tx: '#000' };
+const javascript = { name: 'JavaScript', abv: 'js', icon: '/tech/javascript.svg', bg: '#F0DB4F', tx: '#000' };
+const typescript = { name: 'TypeScript', abv: 'ts', icon: '/tech/typescript.svg', bg: '#007ACB', tx: '#000' };
+const html = { name: 'HTML', abv: 'ht', icon: '/tech/html5.svg', bg: '#E44D26', tx: '#000' };
+const css = { name: 'CSS', abv: 'cs', icon: '/tech/css3.svg', bg: '#1572B6', tx: '#000' };
+const react = { name: 'React', abv: 'rt', icon: '/tech/react.svg', bg: '#61DAFB', tx: '#000' };
+const redux = { name: 'Redux', abv: 'rx', icon: '/tech/redux.svg', bg: '#764ABC', tx: '#000' };
+const next = { name: 'Next', abv: 'nx', icon: '/tech/nextjs.svg', bg: '#FFFFFF', tx: '#000' };
+const tailwind = { name: 'TailwindCSS', abv: 'tw', icon: '/tech/tailwindcss.svg', bg: '#38BDF8', tx: '#000' };
+const gsap = { name: 'Gsap', abv: 'gs', icon: '/tech/gsap.svg', bg: '#8AC640', tx: '#000' };
+const node = { name: 'Node', abv: 'no', icon: '/tech/nodejs.svg', bg: '#8CC84B', tx: '#000' };
+const express = { name: 'Express', abv: 'ex', icon: '/tech/express.svg', bg: '#FFFFFF', tx: '#000' };
+const nest = { name: 'Nest', abv: 'ns', icon: '/tech/nestjs.svg', bg: '#E0234E', tx: '#000' };
+const sequelize = { name: 'Sequelize', abv: 'sq', icon: '/tech/sequelize.svg', bg: '#03AFEF', tx: '#000' };
+const postgresql = { name: 'PostgreSQL', abv: 'pg', icon: '/tech/postgresql.svg', bg: '#336791', tx: '#000' };
+const mongodb = { name: 'MongoDB', abv: 'mg', icon: '/tech/mongodb.svg', bg: '#47A248', tx: '#000' };
+const github = { name: 'GitHub', abv: 'gh', icon: '/tech/github.svg', bg: '#FFFFFF', tx: '#000' };
+const git = { name: 'Git', abv: 'gt', icon: '/tech/git.svg', bg: '#E44D26', tx: '#000' };
 
 const Projects = () => {
   const data = [
@@ -20,7 +23,7 @@ const Projects = () => {
       abv: 'hk',
       description: 'Desarrollo de una aplicación web para una startup mexicana, mi rol en este proyecto fue de Front End y armamos la página desde cero, el proyecto aún no fue lanzado pero estuve como pasante en el mismo. Me dedique a desarrollar y acomodar distintos componentes logrando una buena estructura y visualización de la página.',
       date: 'Julio 2023',
-      technologies: [next, redux, tailwindCSS],
+      technologies: [javascript, html, next, redux, tailwind],
       image: '/images/hk.png',
       link: { web: 'https://huntek.vercel.app/', repo: 'https://github.com/aguscabralr/Huntek' },
     },
@@ -29,7 +32,7 @@ const Projects = () => {
       abv: 'fp',
       description: 'Aplicación web de estilo SPA que sirve para buscar recetas de distintos tipos de comidas, ver sus ingredientes y recetas y para agregar la recetas que vos quieras. Además, cuenta con proceso de registro para asi guardar tus genialidades como chef, a cocinar!',
       date: 'Junio 2023',
-      technologies: [react, redux, css, node, express, sequelize, postreSQL],
+      technologies: [javascript, html, css, react, redux, node, express, sequelize, postgresql],
       image: '/images/fp.png',
       link: { web: 'https://foodpi.vercel.app/', repo: 'https://github.com/aguscabralr/FoodPI-Front' },
     },
@@ -38,7 +41,7 @@ const Projects = () => {
       abv: 'rm',
       description: 'Mi primera aplicación web! Es una SPA (Single Page Application) que muestra los personajes de la serie animada que lleva por titulo, esta ambientada a la misma respecto al diseño y en la misma uno puede, registrarse, iniciar sesión, buscar personajes, filtrar personajes y hasta favearlos.',
       date: 'Mayo 2023',
-      technologies: [react, redux, css, node, express, sequelize, postreSQL],
+      technologies: [javascript, html, css, react, redux, node, express, sequelize, postgresql],
       image: '/images/rm.png',
       link: { web: 'https://rickandmortybyaguscabralr.vercel.app/', repo: 'https://github.com/aguscabralr/RickAndMorty-Front' },
     },
@@ -64,7 +67,7 @@ const Projects = () => {
                   {proj.technologies.map((tech, idx) => {
                     return (
                       <div key={idx} id={tech.abv} className={`${proj.abv}th h-full flex center relative hover:cursor-pointer`}>
-                        <img src={tech.icon} alt={tech.abv} className='aspect-square h-full object-cover filter grayscale-[80%] hover:grayscale-0' />
+                        <img src={tech.icon} alt={tech.abv} className='aspect-square h-full object-cover filter grayscale-[100%] hover:grayscale-0' />
                         <p id={`${tech.abv}tx`} style={{ backgroundColor: `${tech.bg}`, color: `${tech.tx}` }} className='opacity-0 absolute top-[50%] shadow-xl'>
                           {tech.name}
                         </p>
