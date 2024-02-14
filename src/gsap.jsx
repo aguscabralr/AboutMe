@@ -150,6 +150,26 @@ export const tech = () => {
     opacity: 0,
     x: -300,
   });
+  gsap.from('#stic', {
+    scrollTrigger: {
+      trigger: '#stic',
+      scrub: 1,
+      start: 'top 90%',
+      end: 'bottom 80%',
+    },
+    opacity: 0,
+    x: -500,
+  });
+  gsap.from('#sttx', {
+    scrollTrigger: {
+      trigger: '#sttx',
+      scrub: 1,
+      start: 'top 70%',
+      end: 'bottom 60%',
+    },
+    opacity: 0,
+    x: 300,
+  });
   gsap.from('#baic', {
     scrollTrigger: {
       trigger: '#baic',
@@ -158,7 +178,7 @@ export const tech = () => {
       end: 'bottom 80%',
     },
     opacity: 0,
-    x: -500,
+    x: 500,
   });
   gsap.from('#batx', {
     scrollTrigger: {
@@ -168,7 +188,7 @@ export const tech = () => {
       end: 'bottom 60%',
     },
     opacity: 0,
-    x: 300,
+    x: -300,
   });
   gsap.from('#daic', {
     scrollTrigger: {
@@ -178,7 +198,7 @@ export const tech = () => {
       end: 'bottom 80%',
     },
     opacity: 0,
-    x: 500,
+    x: -500,
   });
   gsap.from('#datx', {
     scrollTrigger: {
@@ -188,7 +208,7 @@ export const tech = () => {
       end: 'bottom 60%',
     },
     opacity: 0,
-    x: -300,
+    x: 300,
   });
   gsap.from('#toic', {
     scrollTrigger: {
@@ -198,7 +218,7 @@ export const tech = () => {
       end: 'bottom 80%',
     },
     opacity: 0,
-    x: -500,
+    x: 500,
   });
   gsap.from('#totx', {
     scrollTrigger: {
@@ -208,7 +228,7 @@ export const tech = () => {
       end: 'bottom 60%',
     },
     opacity: 0,
-    x: 300,
+    x: -300,
   });
 };
 

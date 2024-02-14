@@ -86,6 +86,7 @@ body[theme='dark'] {
 #rx:hover > #rxtx,
 #nx:hover > #nxtx,
 #tw:hover > #twtx,
+#gs:hover > #gstx,
 #no:hover > #notx,
 #ex:hover > #extx,
 #ns:hover > #nstx,
@@ -107,7 +108,7 @@ body[theme='dark'] {
 #gh {
   background-color: #fff;
   border-radius: 100%;
-  padding: 4px;
+  padding: 3px;
 }
 
 #rmph:hover > div,
