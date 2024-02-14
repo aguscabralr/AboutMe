@@ -1,11 +1,9 @@
-import photo from '/images/aguscabral.jpg';
-
 const Home = () => {
   return (
     <section id='home' className='w-full h-[130svh] pt-16'>
       <article id='heroxs' className='w-full h-[calc(100svh-64px)] px-[10%] flex-col center lg:hidden'>
         <div id='phxs' className='w-[60%] h-[40%]'>
-          <img src={photo} alt='photo' className='w-full h-full object-cover rounded-tl-3xl rounded-tr-3xl' />
+          <img src={'/aguscabral.jpg'} alt='photo' className='w-full h-full object-cover rounded-tl-3xl rounded-tr-3xl' />
         </div>
         <div id='contxs' className='w-full h-[20%] max-h-24 px-2 flex-col center gap-2 bg-[--crd] text-[--sme] shadow-[--txt] shadow-lg rounded-2xl z-10'>
           <h1 id='txxs1' className='text-lg'>
@@ -29,7 +27,7 @@ const Home = () => {
             </h2>
           </div>
           <div id='phxl' className='w-[25%] h-[200%]'>
-            <img src={photo} alt='photo' className='w-full h-full object-cover rounded-3xl' />
+            <img src={'/aguscabral.jpg'} alt='photo' className='w-full h-full object-cover rounded-3xl' />
           </div>
         </div>
       </article>

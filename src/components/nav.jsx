@@ -13,7 +13,7 @@ const Nav = () => {
   return (
     <nav className='w-full h-16 text-[--txt] backdrop-blur-md fixed top-0 z-40'>
       <section id='nav' className='w-full h-[62px] px-[15%] flex-row justify-between items-center'>
-        <img src='/svg/ac.svg' alt='ac' className='w-8 h-8 inv' onClick={() => handleScroll(0.25)} />
+        <img src='/ac.svg' alt='ac' className='w-8 h-8 inv' onClick={() => handleScroll(0.25)} />
         <div className='hidden md:flex' onClick={() => handleScroll(0)}>
           <HomeSVG />
         </div>
