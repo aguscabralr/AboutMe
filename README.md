@@ -15,24 +15,24 @@
 
 ## 🧠 *Lenguages and Tools*
 
-<h3 align="center">👨🏻‍💻 Old Technologies</h3>
+<h3 align="center">👨🏻‍💻 Languages</h3>
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=js,html,css,react,redux,nodejs,express,sequelize,postgres,github,postman,vscode,discord" />
+    <img src="https://skillicons.dev/icons?i=js,ts,html,css" />
   </a>
 </p>
 
-<h3 align="center">🆕 New Technologies</h3>
+<h3 align="center">🖼️ Front-End</h3>
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=nextjs,tailwind,git,md,materialui" />
+    <img src="https://skillicons.dev/icons?i=react,redux,nextjs,tailwind,gsap,threejs" />
   </a>
 </p>
 
-<h3 align="center">🌱 I'm currently learning</h3>
+<h3 align="center">💻 Back-End</h3>
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=ts,threejs,py" />
+    <img src="https://skillicons.dev/icons?i=nodejs,express,sequelize,postgres,mogo" />
   </a>
 </p>
 
