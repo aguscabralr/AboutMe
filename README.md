@@ -8,7 +8,7 @@
 
 
 <!---->
-#### I'm a lover ***FRONT-END Developer *** from Argentina. I focus on designs and customizations, I have extensive knowledge about the behavior of the differents ***HTML and CSS*** elements, that's why I learned ***TAILWIND CSS***, a tool to improve the speed to create differents things. Actually I'm currently browsing in the world of ***ANIMATIONS*** because this add a better experience to the users
+#### I'm a lover ***FRONT-END Developer*** from Argentina. I focus on designs and customizations, I have extensive knowledge about the behavior of the differents ***HTML and CSS*** elements, that's why I learned ***TAILWIND CSS***, a tool to improve the speed to create differents things. Actually I'm currently browsing in the world of ***ANIMATIONS*** because this add a better experience to the users
 </br>
 <!---->
 
