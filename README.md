@@ -2,7 +2,7 @@
 
 <!---->
 
-<h2 align="center"><a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Chakra+Petch&weight=700&size=50&duration=4000&pause=1000&color=FFF&center=true&vCenter=true&width=800&height=100&lines=Full+Stack+Developer" alt="Typing SVG"/></a></h2>
+<h2 align="center"><a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Chakra+Petch&weight=700&size=50&duration=4000&pause=1000&color=FFF&center=true&vCenter=true&width=800&height=100&lines=Full+Stack+Developer;Front-End+Developer" alt="Typing SVG"/></a></h2>
 
 <!---->
 
