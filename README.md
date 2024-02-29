@@ -25,14 +25,21 @@
 <h3 align="center">🖼️ Front-End</h3>
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=react,redux,nextjs,tailwind,gsap,threejs" />
+    <img src="https://skillicons.dev/icons?i=react,redux,nextjs,tailwind,threejs" />
   </a>
 </p>
 
 <h3 align="center">💻 Back-End</h3>
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=nodejs,express,sequelize,postgres,mogo" />
+    <img src="https://skillicons.dev/icons?i=nodejs,express,nestjs,sequelize,postgres,mongodb" />
+  </a>
+</p>
+
+<h3 align="center">v🔧 Tools</h3>
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=vscode,github,git" />
   </a>
 </p>
 
