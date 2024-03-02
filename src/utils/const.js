@@ -8,6 +8,7 @@ export const tech = {
   next: { name: 'Next', abv: 'nx', icon: '/tech/nextjs.svg', bg: '#FFFFFF', tx: '#000' },
   tailwind: { name: 'TailwindCSS', abv: 'tw', icon: '/tech/tailwindcss.svg', bg: '#38BDF8', tx: '#000' },
   gsap: { name: 'Gsap', abv: 'gs', icon: '/tech/gsap.svg', bg: '#8AC640', tx: '#000' },
+  three: { name: 'Three', abv: 'tr', icon: '/tech/threejs.svg', bg: '#FFF', tx: '#000' },
   node: { name: 'Node', abv: 'no', icon: '/tech/nodejs.svg', bg: '#8CC84B', tx: '#000' },
   express: { name: 'Express', abv: 'ex', icon: '/tech/express.svg', bg: '#FFFFFF', tx: '#000' },
   nest: { name: 'Nest', abv: 'ns', icon: '/tech/nestjs.svg', bg: '#E0234E', tx: '#000' },
@@ -31,6 +32,7 @@ export const fronts = [
 export const styles = [
   { name: 'TailwindCSS', abv: 'tw', icon: '/tech/tailwindcss.svg', bg: '#38BDF8', tx: '#000' },
   { name: 'Gsap', abv: 'gs', icon: '/tech/gsap.svg', bg: '#8AC640', tx: '#000' },
+  { name: 'Three', abv: 'tr', icon: '/tech/threejs.svg', bg: '#FFF', tx: '#000' },
 ];
 export const backs = [
   { name: 'Node', abv: 'no', icon: '/tech/nodejs.svg', bg: '#8CC84B', tx: '#000' },
