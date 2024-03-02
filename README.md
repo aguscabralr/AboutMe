@@ -2,37 +2,44 @@
 
 <!---->
 
-<h2 align="center"><a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Chakra+Petch&weight=700&size=50&duration=4000&pause=1000&color=FFF&center=true&vCenter=true&width=800&height=100&lines=Full+Stack+Developer" alt="Typing SVG"/></a></h2>
+<h2 align="center"><a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Chakra+Petch&weight=700&size=50&duration=4000&pause=1000&color=FFF&center=true&vCenter=true&width=800&height=100&lines=Full+Stack+Developer;Front-End+Developer" alt="Typing SVG"/></a></h2>
 
 <!---->
 
 
 <!---->
-#### I'm a lover ***FRONT-END Developer *** from Argentina. I focus on designs and customizations, I have extensive knowledge about the behavior of the differents ***HTML and CSS*** elements, that's why I learned ***TAILWIND CSS***, a tool to improve the speed to create differents things. Actually I'm currently browsing in the world of ***ANIMATIONS*** because this add a better experience to the users
+#### I'm a lover ***FRONT-END Developer*** from Argentina. I focus on designs and customizations, I have extensive knowledge about the behavior of the differents ***HTML and CSS*** elements, that's why I learned ***TAILWIND CSS***, a tool to improve the speed to create differents things. Actually I'm currently browsing in the world of ***ANIMATIONS*** because this add a better experience to the users
 </br>
 <!---->
 
 
 ## 🧠 *Lenguages and Tools*
 
-<h3 align="center">👨🏻‍💻 Old Technologies</h3>
+<h3 align="center">👨🏻‍💻 Languages</h3>
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=js,html,css,react,redux,nodejs,express,sequelize,postgres,github,postman,vscode,discord" />
+    <img src="https://skillicons.dev/icons?i=js,ts,html,css" />
   </a>
 </p>
 
-<h3 align="center">🆕 New Technologies</h3>
+<h3 align="center">🖼️ Front-End</h3>
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=nextjs,tailwind,git,md,materialui" />
+    <img src="https://skillicons.dev/icons?i=react,redux,nextjs,tailwind,threejs" />
   </a>
 </p>
 
-<h3 align="center">🌱 I'm currently learning</h3>
+<h3 align="center">💻 Back-End</h3>
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=ts,threejs,py" />
+    <img src="https://skillicons.dev/icons?i=nodejs,express,nestjs,sequelize,postgres,mongodb" />
+  </a>
+</p>
+
+<h3 align="center">🔧 Tools</h3>
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=vscode,github,git" />
   </a>
 </p>
 
