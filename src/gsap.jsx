@@ -69,6 +69,15 @@ export const home = () => {
       },
       height: screen('heroxl') * 0.5,
     });
+    gsap.from('#abcont', {
+      scrollTrigger: {
+        trigger: '#heroxl',
+        scrub: 1,
+        start: 'top top',
+        end: 'bottom 85%',
+      },
+      opacity: 0,
+    });
   } else {
     const tl = gsap.timeline();
     tl.from('#contxs', { opacity: 0, width: '0%' }, '+=0.5');
@@ -86,6 +95,15 @@ export const home = () => {
         end: 'bottom 85%',
       },
       height: screen('heroxs') * 0.5,
+    });
+    gsap.from('#abcont', {
+      scrollTrigger: {
+        trigger: '#heroxs',
+        scrub: 1,
+        start: 'top top',
+        end: 'bottom 85%',
+      },
+      opacity: 0,
     });
   }
 

@@ -2,11 +2,14 @@
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.box {
+.rbox {
   border: 2px red solid;
 }
-.box1 {
+.bbox {
   border: 2px blue solid;
+}
+.gbox {
+  border: 2px green solid;
 }
 
 .h-screen {
@@ -87,6 +90,7 @@ body[theme='dark'] {
 #nx:hover > #nxtx,
 #tw:hover > #twtx,
 #gs:hover > #gstx,
+#tr:hover > #trtx,
 #no:hover > #notx,
 #ex:hover > #extx,
 #ns:hover > #nstx,
