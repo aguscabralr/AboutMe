@@ -16,7 +16,7 @@ const Footer = () => {
             <img src='/svg/whatsapp.svg' alt='whatsapp' className='w-7 h-7 invert z-10' />
           </a>
         </div>
-        <h1>Copyright © 2024 · aguscabralr</h1>
+        <h1>2024 · aguscabralr</h1>
       </article>
     </section>
   );
