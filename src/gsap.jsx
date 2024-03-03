@@ -307,6 +307,22 @@ export const proj = () => {
   hkth.map((th) => {
     hktl.from(th, { opacity: 0, y: 50 });
   });
+
+  const ldtl = gsap.timeline({
+    scrollTrigger: {
+      trigger: '#ldcont',
+      scrub: 2,
+      start: 'top 70%',
+      end: 'bottom 90%',
+    },
+  });
+  ldtl.from('#ldcont', { opacity: 0, x: 50 });
+  ldtl.from('#ldtx', { opacity: 0, y: -100, duration: 5 }, '+=3');
+  ldtl.from('#ldph', { opacity: 0, y: -100, duration: 5 });
+  const ldth = gsap.utils.toArray('.ldth');
+  ldth.map((th) => {
+    ldtl.from(th, { opacity: 0, y: 50 });
+  });
 };
 
 export const cont = () => {

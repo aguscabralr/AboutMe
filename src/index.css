@@ -121,12 +121,14 @@ body[theme='dark'] {
   transform: translateY(0);
 }
 
+#cv:hover > div,
 #lk:hover > div,
 #gu:hover > div,
 #wa:hover > div {
   transform: translate(-50%, -10%);
 }
 
+#cv:hover > img,
 #lk:hover > img,
 #gu:hover > img,
 #wa:hover > img {
