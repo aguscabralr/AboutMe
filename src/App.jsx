@@ -6,6 +6,7 @@ import Technolgies from './pages/technolgies';
 import Footer from './components/footer';
 import Nav from './components/nav';
 import { cont, home, panels, proj, tech } from './gsap';
+import Links from './components/links';
 
 const App = () => {
   const [load, setLoad] = useState(false);
@@ -28,6 +29,7 @@ const App = () => {
     <main className='w-full min-h-screen bg text-[--txt] overflow-hidden'>
       <loader className={`w-full h-[300vh] absolute bg-black duration-500 z-50 ${load && '-translate-y-[100%]'}`}></loader>
       <Nav />
+      <Links />
       <Home />
       <Technolgies />
       <Projects />
