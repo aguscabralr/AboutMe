@@ -8,7 +8,7 @@ const Technolgies = () => {
           Tecnologías Tecnologías Tecnologías Tecnologías Tecnologías Tecnologías Tecnologías Tecnologías Tecnologías Tecnologías Tecnologías Tecnologías Tecnologías Tecnologías Tecnologías Tecnologías Tecnologías Tecnologías Tecnologías Tecnologías Tecnologías Tecnologías Tecnologías Tecnologías Tecnologías Tecnologías Tecnologías Tecnologías Tecnologías Tecnologías
         </h1>
       </div>
-      <article id='tcont' className='w-full py-16 px-[5%] text-[--txt] flex-col gap-[20svh]'>
+      <article id='tcont' className='w-full py-16 px-[5%] text-[--txt] flex-col gap-[10svh]'>
         <div className='w-full h-[15svh] max-h-[75px] md:max-h-24 lg:max-h-40 flex-row items-center gap-5 lg:gap-10'>
           <h2 id='latx' className='flex-grow text-end lg:text-3xl xl:text-4xl'>
             Lenguajes

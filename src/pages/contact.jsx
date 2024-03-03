@@ -73,20 +73,20 @@ const Contact = () => {
             </label>
           </div>
           <div className='w-full h-10 flex center'>
-            <button type='submit' className='w-20 py-1 flex center bg-black border rounded-xl border-transparent hover:border-white hover:scale-110 hover:bg-[#111] active:scale-125 duration-300'>
+            <button type='submit' className='w-20 py-1 flex center bg-black text-white border rounded-xl border-transparent hover:border-white hover:scale-110 hover:bg-[#111] active:scale-125 duration-300'>
               {load ? <img src='/svg/load.svg' alt='load' className='w-6 h-6' /> : 'Enviar'}
             </button>
           </div>
         </form>
         {alert.show && (
           <article className='w-full h-full flex center bg-[--sdw] absolute top-0 left-0'>
-            <div className='w-1/3 h-20 bg-[--sme] opacity-100 border rounded-xl overflow-hidden'>
+            <div className='aspect-video bg-[--sme] opacity-100 border rounded-xl overflow-hidden'>
               <div className={`w-full h-5 flex justify-end items-center border text-black ${alert.type === 'e' ? 'bg-red-300' : 'bg-green-300'}`}>
                 <button title='Cerrar' onClick={() => setAlert({ ...alert, show: false })} className='w-4 h-full flex center hover:cursor-pointer hover:bg-gray-200 hover:scale-120 duration-200'>
                   x
                 </button>
               </div>
-              <div className='w-full h-[60px] flex center text-[--txt]'>{alert.message}</div>
+              <div className='w-[99%] h-[80%] flex justify-center items-center text-[--txt] text-center'>{alert.message}</div>
             </div>
           </article>
         )}
