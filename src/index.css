@@ -12,23 +12,6 @@
   border: 2px green solid;
 }
 
-.h-screen {
-  height: 100svh;
-}
-
-.flex-row {
-  display: flex;
-  flex-direction: row;
-}
-.flex-col {
-  display: flex;
-  flex-direction: column;
-}
-.center {
-  justify-content: center;
-  align-items: center;
-}
-
 body[theme='light'] {
   --pri: #00aeff;
   --sec: #66ff00;
@@ -61,12 +44,12 @@ body[theme='dark'] {
 [theme='light'] .bg {
   background-image: linear-gradient(45deg, #ccc, #fff);
   background-attachment: fixed;
-  background-position: center;
+  background-position: justify-center items-center;
 }
 [theme='dark'] .bg {
   background-image: linear-gradient(45deg, #333, #000);
   background-attachment: fixed;
-  background-position: center;
+  background-position: justify-center items-center;
 }
 [theme='light'] .bgs {
   background-color: rgb(243 244 246);

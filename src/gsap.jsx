@@ -10,13 +10,10 @@ const screen = (value) => {
   return e.getBoundingClientRect().height;
 };
 
-export const handleScroll = (scrollY) => {
-  const jump = window.innerHeight * scrollY;
+export const scrollTo = (href) => {
+  const section = document.getElementById(href);
   gsap.to(window, {
-    scrollTo: {
-      y: jump,
-    },
-    duration: 1.2,
+    scrollTo: section,
   });
 };
 
@@ -59,6 +56,7 @@ export const home = () => {
     tl.from('#txxl2', { opacity: 0, x: 100 });
     tl.from('#navLine', { width: '0%' });
     tl.from('#nav', { yPercent: -100 });
+    tl.from('#link', { xPercent: -100 });
 
     gsap.to('#heroxl', {
       scrollTrigger: {
@@ -86,6 +84,7 @@ export const home = () => {
     tl.from('#phxs', { opacity: 0, y: 100 });
     tl.from('#navLine', { width: '0%' });
     tl.from('#nav', { yPercent: -100 });
+    tl.from('#link', { xPercent: -100 });
 
     gsap.to('#heroxs', {
       scrollTrigger: {
