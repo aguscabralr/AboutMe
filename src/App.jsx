@@ -29,7 +29,9 @@ const App = () => {
     <main className='w-full min-h-screen bg text-[--txt] overflow-hidden'>
       <loader className={`w-full h-[300vh] absolute bg-black duration-500 z-50 ${load && '-translate-y-[100%]'}`}></loader>
       <Nav />
-      <Links />
+      <div className='hidden md:block'>
+        <Links />
+      </div>
       <Home />
       <Technolgies />
       <Projects />
