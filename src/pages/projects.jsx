@@ -64,20 +64,20 @@ const Projects = () => {
           Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos Proyectos
         </h1>
       </div>
-      <article className='py-16 px-[10%] text-[--txt] flex-col gap-[5svh]'>
+      <article className='py-16 px-[10%] text-[--txt] flex flex-col gap-[5svh]'>
         {data.map((proj, idx) => {
           return (
-            <div key={idx} id={`${proj.abv}cont`} className='w-full lg:max-h-68 p-8 bg-[--sim] border rounded-xl flex-col lg:flex-row gap-10 overflow-hidden'>
-              <div id={`${proj.abv}tx`} className='w-full lg:w-3/5 flex-col justify-between portrait:gap-10'>
+            <div key={idx} id={`${proj.abv}cont`} className='w-full lg:max-h-68 p-8 bg-[--sim] border rounded-xl flex portrait:flex-col gap-10 overflow-hidden'>
+              <div id={`${proj.abv}tx`} className='w-full lg:w-3/5 flex flex-col justify-between portrait:gap-10'>
                 <div>
                   <span className='text-[2.3vw] landscape:text-[0.9vw] text-gray-500'>{proj.date}</span>
                   <h1 className='text-[4vw] landscape:text-[2.5vw] font-bold'>{proj.title}</h1>
                   <p className='text-[2.8vw] landscape:text-[1.1vw] lg:line-clamp-4'>{proj.description}</p>
                 </div>
-                <div className='h-6 lg:h-10 flex-row gap-4'>
+                <div className='h-6 lg:h-10 flex gap-4'>
                   {proj.technologies.map((tech, idx) => {
                     return (
-                      <div key={idx} id={tech.abv} className={`${proj.abv}th h-full flex center relative hover:cursor-pointer`}>
+                      <div key={idx} id={tech.abv} className={`${proj.abv}th h-full flex justify-center items-center relative hover:cursor-pointer`}>
                         <img src={tech.icon} alt={tech.abv} className='aspect-square h-full object-cover filter grayscale-[100%] hover:grayscale-0' />
                         <p id={`${tech.abv}tx`} style={{ backgroundColor: `${tech.bg}`, color: `${tech.tx}` }} className='opacity-0 absolute top-[50%] shadow-xl'>
                           {tech.name}
@@ -89,7 +89,7 @@ const Projects = () => {
               </div>
               <div id={`${proj.abv}ph`} className='w-full lg:w-2/5 h-full relative overflow-hidden'>
                 <img src={proj.image} alt={proj.title} className='w-full h-full landscape:max-h-80 object-cover' />
-                <div className='w-full h-[15%] flex center gap-5 bg-gray-400 opacity-50 absolute bottom-0 left-0 duration-300'>
+                <div className='w-full h-[15%] flex justify-center items-center gap-5 bg-gray-400 opacity-50 absolute bottom-0 left-0 duration-300'>
                   <a href={proj.link.web} title='Visitá el proyecto' target='_blank' rel='noreferrer' className='h-full flex items-center'>
                     <img src='/svg/goWeb.svg' alt='goFile' className='h-full aspect-square p-2 hover:bg-gray-500 hover:rounded-2xl duration-300' />
                   </a>
